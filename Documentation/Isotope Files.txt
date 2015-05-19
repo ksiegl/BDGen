@@ -1,0 +1,23 @@
+The isotope file contains most of the pertenent information of the decay.
+
+On the first line are the masses (in micro-amu) of:
+M0 - The beta-parent
+M1 - The beta-daughter
+M2 - The BDN-daughter
+
+And the neutron separation energy (in MeV)
+
+abv is the beta-neutrino correlation, which is treated as identical between all branches.
+
+The k-shell binding energy is in keV
+
+The intensity for charge state, beta branches, and neutron states are normalized within the code.
+
+The charge state list consists of integer charge states and their weight
+
+The beta branches list consists of:
+Energy(MeV)		Intensity	Populated Level index (in RIPL-3 data file of the beta-daughter)
+
+The RIPL-3 data files are separate files specified when running the code, and are available at:
+https://www-nds.iaea.org/RIPL-3/ (Discrete Levels and Decay Data)
+

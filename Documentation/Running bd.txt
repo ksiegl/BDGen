@@ -1,0 +1,14 @@
+When running bd, there are 5 parameters.  They are:
+
+bd	<Isotope file>	<RIPL file>	<# of decays to simulate>	<mode, 1=beta-gamma 2=beta-neutron> <ion cloud FWHM (mm)>
+
+The output is three files:
+
+<Isotope file>_<mode, g or n>_aux.txt
+The "master" files, recording each generated particle and its energy/momenta
+
+<Isotope file>_<mode, g or n>_geant.txt
+The geant simulation input, consisting of the betas and either gammas, and CEs, or neutrons depending on mode.
+
+<Isotope file>_<mode, g or n>_simion.ion
+The simion input for the recoil ions.
