@@ -1,0 +1,2 @@
+UVPSpline *MakeUVPSpline(long len);
+

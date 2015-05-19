@@ -1,0 +1,2 @@
+UVPSpline *KillUVPSpline(UVPSpline *sptr);
+

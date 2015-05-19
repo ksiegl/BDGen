@@ -1,0 +1,1 @@
+./bd.exe 136Sb_fast.txt 136TeRIPL.txt 4000000 2 2.5
